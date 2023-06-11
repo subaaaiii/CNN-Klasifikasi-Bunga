@@ -33,7 +33,7 @@ Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional N
    <p >
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 1.png" alt="" class="img-responsive" width="400">
 </p><br>
-2.  import dataset(dapat menggunakan gitclone atau langsung diletakkan ke dalam folder kerja jupyter notebook) <br>
+2.  import dataset bunga (dapat menggunakan gitclone atau langsung diletakkan ke dalam folder kerja jupyter notebook) <br>
    <p >
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 2.png" alt="" class="img-responsive" width="400">
 </p><br>
@@ -50,8 +50,7 @@ Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional N
    <p>
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 5.png" alt="" class="img-responsive" width="500">
 </p><br>
-6. Mengimport model pretrained network yang akan digunakan dari keras aplication <br>
-    disini kami memilih model EfficientNetV2M<br>
+6. Mengimport model pretrained network yang akan digunakan dari keras aplication, kami memilih model EfficientNetV2M<br>
    <p >
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 6.png" alt="" class="img-responsive" width="500">
 </p><br>
