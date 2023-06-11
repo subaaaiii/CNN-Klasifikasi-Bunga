@@ -1,19 +1,32 @@
 # Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
-About Advanced iTCLab Research
-# Proportional Integral Derivative (PID)-iTCLab Control System Programming Using the Arduino and Python
+Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
+# Ilustrasi Metode Covolutional Neural Network
 <p align="center">
-  <img src="https://github.com/bsrahmat/itclab-05/blob/main/jupyter0.jpg" alt="" class="img-responsive" width="700">
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/CNN.png" alt="" class="img-responsive" width="700">
 </p>
-# Required program files:
+# file dan program yang dibutuhkan :
 The files needed to run the iTCLab Kit test using PID Controller, namely:
-1. Programs must be uploaded in the iTCLab Kit (05-iTCLab_PID.ino) https://github.com/bsrahmat/itclab-06/blob/main/05-iTCLab_PID.ino.
-2. Module Program File (itclab.py) https://github.com/bsrahmat/itclab-06/blob/main/itclab.py.
-3. Script Program to run the iTCLab Kit Testing process using Python Jupyter Notebook (iTCLab-PID-01.ipynb) https://github.com/bsrahmat/itclab-06/blob/main/iTCLab-PID-01.ipynb.
+1. Data set dari https://gitlab.com/ykristian/dataset-bunga.
+2. Module Program Python antara lain: 
+    - numpy
+    - pickle
+    - glob
+    - matplotlib
+    - cv2
+    - pandas
+    - sklearn
+    - Keras
+    - PIL(pillow)
+    - .
+4. Script Program untuk run program menggunakan Python Jupyter Notebook (klasifikasi bunya.ipynb)[https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/Klasifikasi%20bunga%20CNN.ipynb].
+
+# Langkah-langkah dalam program
+1. import library python yang dibutuhkan
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 1.png" alt="" class="img-responsive" width="400">
+</p>
 The programs above are the development of programs that have been made by the BYU Campus.
 The following pictures are examples of the test results.
-<p align="center">
-  <img src="https://github.com/bsrahmat/itclab-06/blob/main/pid05.jpg" alt="" class="img-responsive" width="700">
-</p>
 To easily understand how to program the PID-iTCLab control system using the Arduino and Python, you can read the following tutorial (Indonesian version): https://www.academia.edu/101744056.
 Complete PID-iTCLab control results can also be read in the following PDF file : https://www.academia.edu/101755925.
 The PID-iTCLab control results above are compared with the Energy Balance Dynamic Modeling results. The result is outstanding. The results of the PID-iTCLab control are towards the expected Set Point. Energy Balance Dynamic Modeling also shows good performance, indicated by a similar dynamic pattern. The results of PID-iTCLab control are shown in the following video:
