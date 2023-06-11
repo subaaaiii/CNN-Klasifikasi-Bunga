@@ -1,4 +1,4 @@
-# itclab-06 -  PID-iTCLab Control System Using the Arduino and Python
+# Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
 About Advanced iTCLab Research
 # Proportional Integral Derivative (PID)-iTCLab Control System Programming Using the Arduino and Python
 <p align="center">
