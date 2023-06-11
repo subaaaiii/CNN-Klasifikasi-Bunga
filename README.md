@@ -1,64 +1,82 @@
 # Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
-Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
+Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)<br>
+Penyusun :<br>
+1. Subairi (21081010019) <br>
+2. Muhammad Abdullah Hafizh (21081010099)<br>
+3. Raditya Dimas Libriawan (21081010157) <br>
+<b>Kecerdasan Buatan E081</b><br>
+  
 # Ilustrasi Metode Covolutional Neural Network
 <p align="center">
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/CNN.png" alt="" class="img-responsive" width="700">
-</p>
-</b># file dan program yang dibutuhkan :</b>
+</p> <br>
+<b># file dan program yang dibutuhkan :</b> <br>
 1. Data set dari https://gitlab.com/ykristian/dataset-bunga <br>
 2. Module Program Python antara lain: <br>
     - numpy <br>
-    - pickle
-    - glob
-    - matplotlib
-    - cv2
-    - pandas
-    - sklearn
-    - Keras
-    - PIL(pillow)
+    - pickle <br>
+    - glob <br>
+    - matplotlib <br>
+    - cv2 <br>
+    - pandas <br>
+    - sklearn <br>
+    - Keras <br>
+    - PIL(pillow) v
     - .
-4. Script Program untuk run program menggunakan Python Jupyter Notebook (klasifikasi bunya.ipynb)[https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/Klasifikasi%20bunga%20CNN.ipynb].
+4. Script Program untuk run program menggunakan Python Jupyter Notebook (klasifikasi bunya.ipynb)[https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/Klasifikasi%20bunga%20CNN.ipynb].<br><br>
 
-# Langkah-langkah dalam program
-1. import library python yang dibutuhkan
+<b># Langkah-langkah dalam program</b> <br>
+1. import library python yang dibutuhkan <br>
    <p >
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 1.png" alt="" class="img-responsive" width="400">
-</p>
-The programs above are the development of programs that have been made by the BYU Campus.
-The following pictures are examples of the test results.
-To easily understand how to program the PID-iTCLab control system using the Arduino and Python, you can read the following tutorial (Indonesian version): https://www.academia.edu/101744056.
-Complete PID-iTCLab control results can also be read in the following PDF file : https://www.academia.edu/101755925.
-The PID-iTCLab control results above are compared with the Energy Balance Dynamic Modeling results. The result is outstanding. The results of the PID-iTCLab control are towards the expected Set Point. Energy Balance Dynamic Modeling also shows good performance, indicated by a similar dynamic pattern. The results of PID-iTCLab control are shown in the following video:
-[![Watch the video](https://github.com/bsrahmat/itclab-06/blob/main/vid_itclab1.jpg)](https://youtu.be/qTR8vBU19Ck)
-In practice, it can be implemented in the Internet-Based Temperature Control Lab (iTCLab) Kit.
-<br>
-</br>
-# iTCLab
-iTCLab - Internet-Based Temperature Control Lab. Temperature control kit for feedback control applications with an ESP32 Microcontroller, LED, two heaters, and two temperature sensors. The heating power output is adjusted to maintain the desired temperature setpoint. Heat energy from the heater is transferred by conduction, convection, and radiation to the temperature sensor. Heat is also transferred from the device to the environment.
-<p align="center">
-  <img src="https://github.com/bsrahmat/itclab-01/blob/main/itclab01a.jpg" alt="" class="img-responsive" width="700">
-</p>
-# About these iTCLab kits :
-- It is inspired by <a href="https://apmonitor.com/pdc/index.php/Main/ArduinoTemperatureControl" target="_blank">The TCLab Product of Brigham Young University (BYU), one of the private campuses in Provo, Utah, United States of America.</a>
-- Miniature Control System in a Pocket.
-- Practical IoT Learning Package Tools.
-- IoT programming Kits.
-- IoT-Based Control System Practice Devices.
-- It can be used to learn System Dynamics and Control Systems.
-- It can be used to learn Arduino and Python programming.
-- It can be used to learn AI and Machine Learning Programming.
-- And others.
-The underlying difference between TCLab and BYU's TCLab product is replacing the Arduino Uno microcontroller with ESP32. Using this ESP32, iTCLab can connect to the Internet of Things (IoT).
-<br>
-</br>
-## An example of a publication related to this Kits:
+</p><br>
+2.  import dataset(dapat menggunakan gitclone atau langsung diletakkan ke dalam folder kerja jupyter notebook) <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 2.png" alt="" class="img-responsive" width="400">
+</p><br>
+3.  Identifikasi data, cek dan test label data dan image data <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 3.png" alt="" class="img-responsive" width="400">
+</p><br>
+4.  Identifikasi data dan neuron pada data serta posisi indeks True(1)/false(0) yg digunakan untuk melabeli semua data  <br>
+    sesuai dengan label 0=Daisy 1=Dandelion 2=Rose 3=Sunflower 4=Tulip <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 4.png" alt="" class="img-responsive" width="400">
+</p><br>
+5. Membagi Training dan Testing set, dengan size Training set =0.8 dan Testing set =0.2 <br>
+   <p>
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 5.png" alt="" class="img-responsive" width="400">
+</p><br>
+6. Mengimport model pretrained network yang akan digunakan dari keras aplication <br>
+    disini kami memilih model EfficientNetV2M<br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 6.png" alt="" class="img-responsive" width="400">
+</p><br>
+7. Menambahkan layer model yg dibutuhkan  <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 7.png" alt="" class="img-responsive" width="400">
+</p><br>
+8. Melakukan proses freezing dengan cara mengurangi trainable layer pada model dengan tujuan untuk mempercepat proses training data  <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 8.png" alt="" class="img-responsive" width="400">
+</p><br>
+Proses diatas dapat mengurangi weight parameter dari 65 juta menjadi 15 juta sehingga proses training akan lebih cepat. <br>
+9. Melakukan Proses training menggunakan modul Adam yang disediakan keras aplication dengan epoch sebanyak 10 kali  <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 9.png" alt="" class="img-responsive" width="400">
+</p><br>
+Dari training sebanyak 10 epoch sudah dihasilkan rata-rata akurasi yg tinggi, sehingga model siap dan layak untuk digunakan. <br>
+10. Testing dilakukan dengan menggunakan gambar dari internet untuk diidentifikasi <br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 10.png" alt="" class="img-responsive" width="400">
+</p><br>
+<p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 10.1.png" alt="" class="img-responsive" width="400">
+</p><br>
+11. Melemparkan gambar yg dimasukkan pada model untuk diidentifikasi<br>
+   <p >
+  <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 11.png" alt="" class="img-responsive" width="400">
+</p><br>
+Akan ditampilkan hasil dari proses identifikasi sudah sesuai dengan indeks yang ada.
 
-<a href="https://www.igi-global.com/pdf.aspx?tid=319461&ptid=296384&ctid=4&oa=true&isxn=9781668456293" target="_blank">iTCLab Temperature Monitoring and Control System Based on PID and Internet of Things (IoT)</a>
-
-<a href="https://nstproceeding.com/index.php/nuscientech/article/view/939/892" target="_blank">Temperature Monitoring via the Internet of Things Using PID-iTCLab</a>
-
-<a href="https://nstproceeding.com/index.php/nuscientech/article/view/931/885" target="_blank">On/Off Temperature Monitoring and Control via the Internet of Things Using iTCLab Kit</a>
-
-<br>
-</br>
 
