@@ -27,7 +27,8 @@ Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional N
     - .
 4. Script Program untuk run program menggunakan Python Jupyter Notebook (klasifikasi bunya.ipynb)[https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/Klasifikasi%20bunga%20CNN.ipynb].<br><br>
 
-<b># Langkah-langkah dalam program</b> <br>
+# Langkah-langkah dalam program
+
 1. import library python yang dibutuhkan <br>
    <p >
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/step 1.png" alt="" class="img-responsive" width="400">
