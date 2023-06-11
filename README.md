@@ -4,11 +4,10 @@ Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional N
 <p align="center">
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/CNN.png" alt="" class="img-responsive" width="700">
 </p>
-# file dan program yang dibutuhkan :
-The files needed to run the iTCLab Kit test using PID Controller, namely:
-1. Data set dari https://gitlab.com/ykristian/dataset-bunga.
-2. Module Program Python antara lain: 
-    - numpy
+</b># file dan program yang dibutuhkan :</b>
+1. Data set dari https://gitlab.com/ykristian/dataset-bunga <br>
+2. Module Program Python antara lain: <br>
+    - numpy <br>
     - pickle
     - glob
     - matplotlib
