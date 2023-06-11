@@ -1,10 +1,11 @@
 # Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)
-Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)<br>
-Penyusun :<br>
+Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional Neural Network(CNN)<br><br>
+<b>Penyusun :</b>
 1. Subairi (21081010019) <br>
 2. Muhammad Abdullah Hafizh (21081010099)<br>
 3. Raditya Dimas Libriawan (21081010157) <br>
-<b>Kecerdasan Buatan E081</b><br>
+ 
+<b> Kelas : Kecerdasan Buatan E081</b><br>
   
 # Ilustrasi Metode Covolutional Neural Network
 <p align="center">
