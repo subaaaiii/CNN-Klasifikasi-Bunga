@@ -11,7 +11,8 @@ Tentang Klasifikasi Jenis Bunga Menggunakan Metode Depp Learning Convolutional N
 <p align="center">
   <img src="https://github.com/subaaaiii/CNN-Klasifikasi-Bunga/blob/main/CNN.png" alt="" class="img-responsive" width="700">
 </p> <br>
-<b># file dan program yang dibutuhkan :</b> <br>
+
+# File dan program yang dibutuhkan
 1. Data set dari https://gitlab.com/ykristian/dataset-bunga <br>
 2. Module Program Python antara lain: <br>
     - numpy <br>
